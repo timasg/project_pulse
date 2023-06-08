@@ -1,0 +1,21 @@
+.consultation {
+    min-height: 680px;
+    padding: 108px 0;
+    background: url(../img/bg/bg-shoes.jpg) center ( center/cover ) no-repeat;
+    &__subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #fff;
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
